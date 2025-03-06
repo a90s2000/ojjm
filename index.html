@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWA Google Sheets Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <!-- Include Chart.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Google Sheets Data</h1>
+    
+    <div id="table-container"></div>
+    
+    <div id="chart-container">
+        <canvas id="chart_div"></canvas>
+    </div>
+
+    <!-- Load the app.js as a module -->
+    <script type="module" src="app.js"></script>
+    <!-- Raspberry Pi のプログラム実行ボタン -->
+    <button id="run_script_button">Raspberry Pi スクリプト実行</button>
+
+</body>
+</html>
