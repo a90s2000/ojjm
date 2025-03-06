@@ -1,7 +1,7 @@
 import { drawChart } from './chart.js';
 
 const apiKey = 'AIzaSyCnKO4VX7mzk8BNZv1ItWFVpSMHxUKoU4g';  // APIキー
-const spreadsheetId = '1Y9UWQbNmzGvPZxVTs732iUHo9o26KJDbSumj08xObjs';  // スプレッドシートID
+const spreadsheetId = '1Y9UWQbNmzGvPZxVTs732iUHo9o26KJDbSumj08xObjs';  // スプレッドシートI
 const range = 'Sheet1!A1:E';  // 取得範囲を拡大
 
 let dataCache = [];  // 取得済みデータを保持
